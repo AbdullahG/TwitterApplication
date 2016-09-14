@@ -1,4 +1,4 @@
-# TwitterApplication
+# TwitterAssistant
 
  Tweets 6 times per a day<br>
      -Gets the random tweet from its target accounts.<br><br>
