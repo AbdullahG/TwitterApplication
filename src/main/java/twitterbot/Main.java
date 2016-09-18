@@ -14,7 +14,6 @@ public class Main {
 		Operations op = new Operations();
 		Logger logger = LoggerFactory.getLogger(Main.class);
 		
-		logger.info("ilk loggggggggggg ######");
 		 while(true){
 			 
 			 try{
@@ -36,7 +35,7 @@ public class Main {
 				 logger.info("------------------------------------------------------------------------------------");
 			 }
 			 catch(Exception e){
-				 logger.info("THERE IS SOMETHING WRONG IN MAIN FUNCTION.. WILL WAIT FOR 15 MINUTES" );
+				 logger.info("THERE IS SOMETHING WRONG IN MAIN FUNCTION");
 				 logger.error("main error", e);
 				 op.sleepMin(16);
 			 }
